@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-workspaces-web`](https://www.npmjs.com/package/@aws-sdk/client-workspaces-web/v/3.616.0).
+[`@aws-sdk/client-workspaces-web`](https://www.npmjs.com/package/@aws-sdk/client-workspaces-web/v/3.620.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.616.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.620.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-j8mG0y7liNDP1BeH0ntFyyvTAw9HOF/SbL9d9YQQJZ++L6kivoD+UC6UsKQ/Tn8h
+sha384-se2tWiUhKXstACTtQHBwHlabhMvAFDmiBu7f2JN1eQ5T43gwD99EKPJbWGscMJ9i
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-workspaces-web": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.616.0/index.min.mjs"
+            "@aws-sdk/client-workspaces-web": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.620.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.616.0/index.min.mjs": "sha384-j8mG0y7liNDP1BeH0ntFyyvTAw9HOF/SbL9d9YQQJZ++L6kivoD+UC6UsKQ/Tn8h"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.620.0/index.min.mjs": "sha384-se2tWiUhKXstACTtQHBwHlabhMvAFDmiBu7f2JN1eQ5T43gwD99EKPJbWGscMJ9i"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-workspaces-web": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.616.0/index.min.mjs"
+                        "@aws-sdk/client-workspaces-web": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.620.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.616.0/index.min.mjs": "sha384-j8mG0y7liNDP1BeH0ntFyyvTAw9HOF/SbL9d9YQQJZ++L6kivoD+UC6UsKQ/Tn8h"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-workspaces-web@3.620.0/index.min.mjs": "sha384-se2tWiUhKXstACTtQHBwHlabhMvAFDmiBu7f2JN1eQ5T43gwD99EKPJbWGscMJ9i"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.616.0`)
+* Always pin to a specific version (`@3.620.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-workspaces-web/blob/refs/tags/3.616.0/LICENSE
+https://github.com/cloud-sdk-builds/client-workspaces-web/blob/refs/tags/3.620.0/LICENSE
 ```
 
 ---
